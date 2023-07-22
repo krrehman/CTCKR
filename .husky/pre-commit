@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+case `uname` in
+  *CYGWIN*|*MINGW*|*MSYS*)
+    npm.cmd run pre-commit # bug on Windows/Github Desktop: add `.cmd` extension fixes it
+  ;;
+  *)
+    npm run pre-commit
+  ;;
+esac

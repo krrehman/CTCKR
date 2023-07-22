@@ -1,0 +1,25 @@
+name: sast
+on:
+  # You can see any existing code scanning alerts on the Security > Code Scanning tab.
+  # https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/managing-code-scanning-alerts-for-your-repository
+  workflow_dispatch:
+  push:
+    branches: ['master']
+  schedule:
+    - cron: '0 10 * * 0' # UTC Sun 19:00 AEST
+
+  # The lines of code changed in the pull request generate code scanning alerts
+  # The alerts are reported in the following places on the pull request.
+  # - Check results in the pull request
+  # - The Conversation tab of the pull request, as part of a pull request review
+  # - The Files changed tab of the pull request
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: ['master']
+    types: [opened, synchronize, reopened, ready_for_review]
+jobs:
+  ruw-sast:
+    uses: cmctechnology/phoenix-stockbroking-github-actions/.github/workflows/ruw-sast.yml@v1
+    with:
+      TEAM_NAME: webinvest
+    secrets: inherit

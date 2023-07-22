@@ -1,0 +1,866 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForgotUsernameDetailsForm render should match snapshot 1`] = `
+Array [
+  .c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c2 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  height: 3rem;
+  width: 100%;
+  border: 1px solid #cdd0d5;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  caret-color: #091731;
+  background-color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: auto;
+  outline: 0;
+}
+
+.c2:-webkit-autofill::first-line,
+.c2:-webkit-autofill {
+  font-size: 12pt;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c2::-ms-reveal {
+  display: none;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c2::-moz-placeholder {
+  color: #c1c5cb;
+}
+
+.c2:-ms-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c2::placeholder {
+  color: #c1c5cb;
+}
+
+.c2:disabled {
+  border: 1px solid #cdd0d5;
+  background-color: #ECEFF0;
+}
+
+.c2:focus:not(disabled) {
+  background-color: #bff0f9;
+  border-color: #bff0f9;
+}
+
+.c1 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  line-height: 1.375rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+}
+
+.c3 {
+  padding: 0.75rem;
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+<div
+    className="c0"
+  >
+    <label
+      className="c1"
+      onKeyDown={[Function]}
+    >
+      First Name
+    </label>
+    <input
+      className="c2 c3"
+      data-testid="ForgotUsernameDetailsForm.firstName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Enter your first name"
+      value="test-value-0"
+    />
+  </div>,
+  .c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c2 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  height: 3rem;
+  width: 100%;
+  border: 1px solid #cdd0d5;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  caret-color: #091731;
+  background-color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: auto;
+  outline: 0;
+}
+
+.c2:-webkit-autofill::first-line,
+.c2:-webkit-autofill {
+  font-size: 12pt;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c2::-ms-reveal {
+  display: none;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c2::-moz-placeholder {
+  color: #c1c5cb;
+}
+
+.c2:-ms-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c2::placeholder {
+  color: #c1c5cb;
+}
+
+.c2:disabled {
+  border: 1px solid #cdd0d5;
+  background-color: #ECEFF0;
+}
+
+.c2:focus:not(disabled) {
+  background-color: #bff0f9;
+  border-color: #bff0f9;
+}
+
+.c1 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  line-height: 1.375rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+}
+
+.c3 {
+  padding: 0.75rem;
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+<div
+    className="c0"
+  >
+    <label
+      className="c1"
+      onKeyDown={[Function]}
+    >
+      Last Name
+    </label>
+    <input
+      className="c2 c3"
+      data-testid="ForgotUsernameDetailsForm.lastName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Enter your last name"
+      value="test-value-0"
+    />
+  </div>,
+  .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c3 {
+  width: 100%;
+}
+
+.c6 {
+  width: 100%;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c4 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  height: 3rem;
+  width: 100%;
+  border: 1px solid #cdd0d5;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  caret-color: #091731;
+  background-color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: auto;
+  outline: 0;
+  text-align: center;
+}
+
+.c4:-webkit-autofill::first-line,
+.c4:-webkit-autofill {
+  font-size: 12pt;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c4::-ms-reveal {
+  display: none;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c4::-moz-placeholder {
+  color: #c1c5cb;
+}
+
+.c4:-ms-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c4::placeholder {
+  color: #c1c5cb;
+}
+
+.c4:disabled {
+  border: 1px solid #cdd0d5;
+  background-color: #ECEFF0;
+}
+
+.c4:focus:not(disabled) {
+  background-color: #bff0f9;
+  border-color: #bff0f9;
+}
+
+.c5 {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.c5.c5::-webkit-outer-spin-button,
+.c5.c5::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c7 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c7 .react-select__control {
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  color: #091731;
+  border: 1px solid #cdd0d5;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.c7 .react-select__control.react-select__control--menu-is-open {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c7 .react-select__control.react-select__control--is-focused {
+  background-color: #bff0f9;
+  border-color: #bff0f9;
+}
+
+.c7 .react-select__placeholder,
+.c7 .react-select__single-value {
+  text-align: center;
+}
+
+.c7 .react-select__value-container {
+  line-height: 1.375rem;
+}
+
+.c7 .react-select__control:hover {
+  border: #bff0f9;
+  background-color: #bff0f9;
+}
+
+.c7 .react-select__option {
+  background-color: #fff;
+}
+
+.c7 .react-select__option:hover {
+  background-color: #bff0f9;
+  color: #091731;
+}
+
+.c7 .react-select__option:active,
+.c7 .react-select__option--is-focused,
+.c7 .react-select__option:focus {
+  background-color: #bff0f9;
+  color: #091731;
+}
+
+.c7 .react-select__option--is-selected {
+  color: #091731;
+}
+
+.c7 .react-select__dropdown-indicator {
+  font-size: 1.5rem;
+  color: #091731;
+  -webkit-transition: all 50ms ease;
+  transition: all 50ms ease;
+}
+
+.c7 .react-select__indicator-separator {
+  display: none;
+}
+
+.c7 .react-select__dropdown-indicator:hover {
+  color: #091731;
+}
+
+.c7 .react-select__menu {
+  margin-top: 0;
+  border-radius: 0 0 0.25rem 0.25rem;
+  border: 1px solid #cdd0d5;
+  border-top-width: 0;
+  box-shadow: 0 0.125rem 0.25rem rgba(70,81,100,0.1);
+  text-align: left;
+}
+
+.c7 .react-select__menu-list {
+  padding: 0.25rem 0.125rem;
+}
+
+.c7 .react-select__group-heading {
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.c1 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  line-height: 1.375rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+}
+
+.c8 .react-select__placeholder {
+  padding-left: 2rem;
+}
+
+@media (max-width:767px) {
+  .c2 {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:576px) {
+  .c3 {
+    max-width: 30%;
+    -webkit-flex-basis: 30%;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    margin-right: 1rem;
+  }
+
+  .c3:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width:576px) {
+  .c6 {
+    max-width: 40%;
+    -webkit-flex-basis: 40%;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    margin-right: 1rem;
+  }
+
+  .c6:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:576px) {
+  .c8 .react-select__single-value {
+    padding-left: 2rem;
+  }
+}
+
+<div
+    className="c0"
+  >
+    <label
+      className="c1"
+      onKeyDown={[Function]}
+    >
+      Date of birth
+    </label>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        data-testid="Col"
+      >
+        <input
+          className="c4 c5"
+          data-testid="ForgotUsernameDetailsForm.dateSelector.day"
+          inputMode="numeric"
+          min={1}
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="DD"
+          type="number"
+          value="test-value-0"
+        />
+      </div>
+      <div
+        className="c6"
+        data-testid="Col"
+      >
+        <div
+          className="c7"
+          data-testid="ForgotUsernameDetailsForm.dateSelector.month"
+        >
+          <div
+            className="c8 data-testid_ForgotUsernameDetailsForm_dateSelector_month css-b62m3t-container"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="css-1f43avz-a11yText-A11yText"
+              id="react-select-2-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              className="css-1f43avz-a11yText-A11yText"
+            />
+            <div
+              className="react-select__control css-1s2u09g-control"
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+            >
+              <div
+                className="react-select__value-container css-319lph-ValueContainer"
+              >
+                <div
+                  className="react-select__placeholder css-14el2xx-placeholder"
+                  id="react-select-2-placeholder"
+                >
+                  Month
+                </div>
+                <div
+                  className="react-select__input-container css-6j8wv5-Input"
+                  data-value=""
+                >
+                  <input
+                    aria-autocomplete="list"
+                    aria-controls="react-select-2-listbox"
+                    aria-describedby="react-select-2-placeholder"
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    aria-invalid={false}
+                    aria-owns="react-select-2-listbox"
+                    autoCapitalize="none"
+                    autoComplete="off"
+                    autoCorrect="off"
+                    className="react-select__input"
+                    disabled={false}
+                    id="react-select-2-input"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    role="combobox"
+                    spellCheck="false"
+                    style={
+                      Object {
+                        "background": 0,
+                        "border": 0,
+                        "color": "inherit",
+                        "font": "inherit",
+                        "gridArea": "1 / 2",
+                        "label": "input",
+                        "margin": 0,
+                        "minWidth": "2px",
+                        "opacity": 1,
+                        "outline": 0,
+                        "padding": 0,
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={0}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                className="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <span
+                  className="react-select__indicator-separator css-1okebmr-indicatorSeparator"
+                />
+                <div
+                  aria-hidden="true"
+                  className="react-select__indicator react-select__dropdown-indicator css-tlfecz-indicatorContainer"
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="css-tj5bde-Svg"
+                    focusable="false"
+                    height={20}
+                    viewBox="0 0 20 20"
+                    width={20}
+                  >
+                    <path
+                      d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        data-testid="Col"
+      >
+        <input
+          className="c4 c5"
+          data-testid="ForgotUsernameDetailsForm.dateSelector.year"
+          inputMode="numeric"
+          min={1}
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="YYYY"
+          type="number"
+          value="test-value-0"
+        />
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  font-style: normal;
+  text-align: left;
+  font-size: 10.5pt;
+  line-height: 1.375rem;
+  margin: auto;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c2 {
+  text-align: center;
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+<div
+    className="c0"
+  >
+    <p
+      className="c1 c2"
+    >
+      If details match we will send an email to your registered address with the account username. If you do not receive this please call client services.
+    </p>
+  </div>,
+  .c5 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  color: #091731;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  height: 3.5rem;
+  width: 14rem;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: #091731;
+}
+
+.c2 .c4 {
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c2,
+.c2 * {
+  color: #fff;
+}
+
+.c2:active {
+  opacity: 0.8;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c3 {
+  width: 10.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+<div
+    className="c0 c1"
+  >
+    <button
+      className="c2 c3"
+      data-testid="ForgotUsernameDetailsForm.submit"
+      label="Submit"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c4 c5"
+        data-testid="ForgotUsernameDetailsForm.submit.Label"
+      >
+        Submit
+      </span>
+    </button>
+  </div>,
+]
+`;

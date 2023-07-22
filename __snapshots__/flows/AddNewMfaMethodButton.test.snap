@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewMfaMethodButton should match snapshot 1`] = `
+<input
+  className="inputbutton btn"
+  data-testid="AddNewMfaMethodButton.mfaMethodBtn"
+  onClick={[Function]}
+  type="button"
+  value="Add New MFA Method"
+/>
+`;

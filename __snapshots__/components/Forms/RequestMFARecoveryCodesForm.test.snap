@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestMFARecoveryCodesForm render should match snapshot 1`] = `
+Array [
+  .c10 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  color: #091731;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  font-style: normal;
+  text-align: left;
+  font-size: 10.5pt;
+  line-height: 1.375rem;
+  margin: auto;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  height: 3.5rem;
+  width: 14rem;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: #091731;
+}
+
+.c7 .c9 {
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c7,
+.c7 * {
+  color: #fff;
+}
+
+.c7:active {
+  opacity: 0.8;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  height: 3rem;
+  width: 100%;
+  border: 1px solid #cdd0d5;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  caret-color: #091731;
+  background-color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: auto;
+  outline: 0;
+}
+
+.c5:-webkit-autofill::first-line,
+.c5:-webkit-autofill {
+  font-size: 12pt;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c5::-ms-reveal {
+  display: none;
+}
+
+.c5::-webkit-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c5::-moz-placeholder {
+  color: #c1c5cb;
+}
+
+.c5:-ms-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c5::placeholder {
+  color: #c1c5cb;
+}
+
+.c5:disabled {
+  border: 1px solid #cdd0d5;
+  background-color: #ECEFF0;
+}
+
+.c5:focus:not(disabled) {
+  background-color: #bff0f9;
+  border-color: #bff0f9;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  gap: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .c2 {
+  text-align: center;
+}
+
+.c4 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.c8 {
+  max-width: 7rem;
+  margin-top: 1rem;
+}
+
+.c6 {
+  padding: 0.75rem;
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    className="c0 c1"
+  >
+    <p
+      className="c2 c3"
+    >
+      Please enter a recovery code provided when setting up MFA to continue logging in.
+    </p>
+    <div
+      className="c0 c4"
+    >
+      <input
+        className="c5 c6"
+        data-testid="RequestMFARecoveryCodesForm.code"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter your recovery code"
+        value="test-value-0"
+      />
+      <button
+        className="c7 c8"
+        data-testid="RequestMFARecoveryCodesForm.submit"
+        label="Submit"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="c9 c10"
+          data-testid="RequestMFARecoveryCodesForm.submit.Label"
+        >
+          Submit
+        </span>
+      </button>
+    </div>
+  </div>,
+  .c3 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  font-style: normal;
+  text-align: left;
+  font-size: 10.5pt;
+  line-height: 1.375rem;
+  margin: auto;
+}
+
+.c4 {
+  background-color: #f3f5f6;
+  white-space: nowrap;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.25rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 .c2 {
+  text-align: center;
+}
+
+.c1 {
+  width: 100%;
+  gap: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 2rem 2rem;
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  padding: 1.25rem;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0.25rem;
+}
+
+@media (max-width:767px) {
+  .c4 {
+    white-space: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0.05rem;
+  }
+}
+
+<div
+    className="c0 c1"
+  >
+    <p
+      className="c2 c3"
+    >
+      <b>
+        Don't have your recovery codes?
+      </b>
+    </p>
+    <div
+      className="c4 c5"
+    >
+      <p
+        className="c2 c3"
+      >
+        <b>
+          Phone: 
+        </b>
+         
+        1300 360 071
+      </p>
+    </div>
+  </div>,
+]
+`;

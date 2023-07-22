@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WfeFRFlowEnableDisableMfaContainer should match snapshot when mfa is disabled 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  gap: 1rem;
+}
+
+<div
+  className="c0 c1"
+>
+  <input
+    className="inputbutton btn"
+    data-testid="EnableDisableMfaContainer.enableDisableMfaBtn"
+    onClick={[Function]}
+    type="button"
+    value="Activate"
+  />
+</div>
+`;
+
+exports[`WfeFRFlowEnableDisableMfaContainer should match snapshot when mfa is enabled 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  gap: 1rem;
+}
+
+<div
+  className="c0 c1"
+>
+  <input
+    className="inputbutton btn"
+    data-testid="EnableDisableMfaContainer.enableDisableMfaBtn"
+    onClick={[Function]}
+    type="button"
+    value="Deactivate"
+  />
+  <input
+    className="inputbutton btn"
+    data-testid="AddNewMfaMethodButton.mfaMethodBtn"
+    onClick={[Function]}
+    type="button"
+    value="Add New MFA Method"
+  />
+</div>
+`;

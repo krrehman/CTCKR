@@ -1,0 +1,98 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier", "import"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb-typescript",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended",
+    "plugin:promise/recommended",
+    "plugin:unicorn/recommended",
+    "plugin:i18next/recommended",
+    "plugin:sonarjs/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": ["./tsconfig.json", "./tsconfig.test.json"]
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error", { "functions": false, "classes": false, "typedefs": false }],
+    "prefer-destructuring": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/prefer-node-protocol": "off",
+    "unicorn/prefer-module": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/no-array-for-each": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["**/*.test.ts*"] }],
+    "import/prefer-default-export": "off",
+    "no-prototype-builtins": "off",
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off",
+    "eqeqeq": ["error", "smart"],
+    "i18next/no-literal-string": [
+      "error",
+      {
+        "ignoreProperty": ["id", "path", "apiUrl", "topStreetTypeCodes", "icon", "data-testid", "appName", "moduleName"],
+        "ignoreAttribute": ["name", "icon", "textAlign", "attached", "iconStyle", "data-testid", "to", "path", "page"],
+        "ignoreCallee": ["createAction", "useTestId", "generateTestId", "format"]
+      }
+    ],
+    "import/no-default-export": "off",
+    "react/require-default-props": "off",
+    "sonarjs/no-nested-template-literals": "off",
+    "@typescript-eslint/prefer-optional-chain": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts*"],
+      "rules": {
+        "linebreak-style": "off",
+        "import/prefer-default-export": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/prop-types": "off",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "unicorn/no-useless-undefined": "off",
+        "unicorn/no-array-reduce": "off",
+        "unicorn/numeric-separators-style": "off"
+      }
+    },
+    {
+      "files": ["**/*.test.ts*", "src/setupTests.ts*"],
+      "rules": {
+        // this creates around 200 errors
+        "unicorn/no-array-callback-reference": "off",
+        "unicorn/template-indent": "off",
+        "i18next/no-literal-string": "off",
+        "sonarjs/cognitive-complexity": "off",
+        "sonarjs/no-duplicate-string": "off",
+        "sonarjs/no-ignored-return": "off",
+        "sonarjs/no-identical-functions": "off"
+      }
+    },
+    {
+      "files": ["tests/**/*.ts"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "i18next/no-literal-string": "off",
+        "jest/no-done-callback": "off",
+        "unicorn/numeric-separators-style": "off",
+        "@typescript-eslint/lines-between-class-members": "off"
+      }
+    }
+  ]
+}

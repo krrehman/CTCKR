@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestMFAPushPollingWaitForm render should match snapshot 1`] = `
+.c3 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  font-style: normal;
+  text-align: left;
+  font-size: 10.5pt;
+  line-height: 1.375rem;
+  margin: auto;
+}
+
+.c4 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  color: #325FFF;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.c4:hover,
+.c4:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  padding: 2rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c1 .c2 {
+  text-align: center;
+}
+
+<div
+  className="c0 c1"
+>
+  <p
+    className="c2 c3"
+  >
+    <b>
+      A push notification has been sent to your registered mobile device. Tap this notification and approve to continue logging in.
+    </b>
+  </p>
+  <img
+    src="test-file-stub"
+  />
+  <button
+    className="c4 c5"
+    data-testid="RequestMFAPushPollingWaitForm.options"
+    onClick={[Function]}
+    type="button"
+  >
+    Didn't receive a verification message?
+  </button>
+</div>
+`;

@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormDetails should match snapshot 1`] = `
+Array [
+  .c5 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  color: #325FFF;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.c5:hover,
+.c5:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c7 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  height: 3rem;
+  width: 100%;
+  border: 1px solid #cdd0d5;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  caret-color: #091731;
+  background-color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: auto;
+  outline: 0;
+}
+
+.c7:-webkit-autofill::first-line,
+.c7:-webkit-autofill {
+  font-size: 12pt;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c7::-ms-reveal {
+  display: none;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c7::-moz-placeholder {
+  color: #c1c5cb;
+}
+
+.c7:-ms-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c7::placeholder {
+  color: #c1c5cb;
+}
+
+.c7:disabled {
+  border: 1px solid #cdd0d5;
+  background-color: #ECEFF0;
+}
+
+.c7:focus:not(disabled) {
+  background-color: #bff0f9;
+  border-color: #bff0f9;
+}
+
+.c3 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  line-height: 1.375rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c6 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  padding: 0.75rem;
+}
+
+.c2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.c2 .c4 {
+  font-size: 0.8125rem;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 c2"
+    >
+      <label
+        className="c3"
+        onKeyDown={[Function]}
+      >
+        Username
+      </label>
+      <button
+        className="c4 c5 c6"
+        data-testid="LoginForm.forgotUsername"
+        onClick={[Function]}
+        type="button"
+      >
+        Forgot username?
+      </button>
+    </div>
+    <input
+      className="c7 c8"
+      data-testid="LoginForm.username"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Enter your username"
+      value=""
+    />
+  </div>,
+  .c10 {
+  height: 1.125rem;
+  padding: 0.438rem;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  color: inherit;
+  box-sizing: content-box;
+  border-radius: 50%;
+  overflow: visible;
+}
+
+.c10.c10 {
+  width: 1.125rem;
+}
+
+.c12 .c9 {
+  padding-left: 0;
+}
+
+.c5 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  color: #325FFF;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.c5:hover,
+.c5:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c7 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  height: 3rem;
+  width: 100%;
+  border: 1px solid #cdd0d5;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  caret-color: #091731;
+  background-color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: auto;
+  outline: 0;
+}
+
+.c7:-webkit-autofill::first-line,
+.c7:-webkit-autofill {
+  font-size: 12pt;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c7::-ms-reveal {
+  display: none;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c7::-moz-placeholder {
+  color: #c1c5cb;
+}
+
+.c7:-ms-input-placeholder {
+  color: #c1c5cb;
+}
+
+.c7::placeholder {
+  color: #c1c5cb;
+}
+
+.c7:disabled {
+  border: 1px solid #cdd0d5;
+  background-color: #ECEFF0;
+}
+
+.c7:focus:not(disabled) {
+  background-color: #bff0f9;
+  border-color: #bff0f9;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  margin-top: -2.5rem;
+  margin-left: calc(100% - 2rem);
+  margin-bottom: 1.5rem;
+}
+
+.c3 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  line-height: 1.375rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c6 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  padding: 0.75rem;
+}
+
+.c2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.c2 .c4 {
+  font-size: 0.8125rem;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 c2"
+    >
+      <label
+        className="c3"
+        onKeyDown={[Function]}
+      >
+        Password
+      </label>
+      <button
+        className="c4 c5 c6"
+        data-testid="LoginForm.forgotPassword"
+        onClick={[Function]}
+        type="button"
+      >
+        Forgot password?
+      </button>
+    </div>
+    <input
+      className="c7 c8"
+      data-testid="LoginForm.password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Enter your password"
+      type="password"
+      value=""
+    />
+    <svg
+      className="c9 c10 c11"
+      data-testid="LoginForm.password.Icon"
+      fill="none"
+      height={24}
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      width={24}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"
+      />
+      <line
+        x1="1"
+        x2="23"
+        y1="1"
+        y2="23"
+      />
+    </svg>
+  </div>,
+  .c4 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  color: #091731;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 12pt;
+  line-height: 1.375rem;
+  font-weight: bold;
+  height: 3.5rem;
+  width: 14rem;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: #091731;
+}
+
+.c1 .c3 {
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c1,
+.c1 * {
+  color: #fff;
+}
+
+.c1:active {
+  opacity: 0.8;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c2 {
+  width: 10.5rem;
+}
+
+<div
+    className="c0"
+  >
+    <button
+      className="c1 c2"
+      data-testid="LoginForm.loginBtn"
+      label="Login"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3 c4"
+        data-testid="LoginForm.loginBtn.Label"
+      >
+        Login
+      </span>
+    </button>
+  </div>,
+  .c3 {
+  font-family: Modern Era,sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #091731;
+  font-style: normal;
+  text-align: left;
+  font-size: 10.5pt;
+  line-height: 1.375rem;
+  margin: auto;
+}
+
+.c0 {
+  margin-top: 2rem;
+}
+
+.c0:first-child {
+  margin-top: 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c1 .c2 {
+  padding: 0 1rem;
+  text-align: start;
+  margin-left: 0;
+}
+
+.c1 > input {
+  width: 2rem;
+  min-width: 2rem;
+  height: 2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #c1c5cb;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  outline: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.c1 > input:checked {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=);
+  background-color: #091731;
+  color: #fff;
+  border: none;
+}
+
+.c1 > input:hover,
+.c1 input:focus {
+  background-color: #465164;
+}
+
+<div
+    className="c0"
+  >
+    <label
+      className="c1"
+      data-testid="LoginForm.rememberMe"
+    >
+      <input
+        checked={false}
+        data-testid="LoginForm.rememberMe.input"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <p
+        className="c2 c3"
+        data-testid="LoginForm.rememberMe.Text"
+        size="medium"
+      >
+        Remember me
+      </p>
+    </label>
+  </div>,
+]
+`;
