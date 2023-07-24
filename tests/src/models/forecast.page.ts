@@ -1,34 +1,33 @@
 import { Page } from '@playwright/test';
 import { formTestData } from '../common/envConfig';
 import { locatorByHRole } from '../common/helpers';
-import { formatDateMessage, getDaysFromNow } from '../common/dateHelper'
+import { getDaysFromNow } from '../common/dateHelper';
+
+type City = 'Sydney' | 'Melbourne';
+type State = 'NSW' | 'VIC';
 
 export const forecast = (page: Page) => {
   const { BASE_URL } = formTestData;
 
-  const cityLink = locatorByHRole(page, 'Sydney' );
-  const forecastUrl = `${BASE_URL}/nsw/forecasts/sydney.shtml`;
-  const thirdDay = getDaysFromNow(3);
-  const thirdDayFormatted = formatDateMessage(thirdDay);
+  const getForecastUrl = (city: City, state: State) => `${BASE_URL}/${state.toLowerCase()}/forecasts/${city.toLowerCase()}.shtml`;
 
   return {
     page,
     BASE_URL,
-    forecastUrl,
-    thirdDayFormatted,
+    getForecastUrl,
 
-    goToCityForecast: async () => {
+    goToCityForecast: async (city: City) => {
       await page.goto(BASE_URL);
+      let cityLink = locatorByHRole(page, `${city}`);
       await cityLink.click();
     },
 
-    getThirdDayForecast: async () => {
-      const forecast = await page
-      .locator('div.day', { has: page.locator(`text=${thirdDay}`) })
-      .locator('dd.rain > em.pop')
-      .innerText()
-
-      return parseFloat(forecast)
+    getDayForecast: async (days: number) => {
+      const forecastName = await page
+        .locator('div.day', { has: page.locator(`text=${getDaysFromNow(days)}`) })
+        .locator('dd.rain > em.pop')
+        .textContent();
+      return Number.parseFloat(forecastName!);
     }
   };
 };
