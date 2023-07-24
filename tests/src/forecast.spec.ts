@@ -7,7 +7,7 @@ const STATE = 'NSW';
 const DAY_FROM_NOW = 3;
 
 test('Test if it will rain in Sydney after 3 days: @regression', async ({ forecastPage, page }) => {
-  await forecastPage.goToCityForecast(CITY, STATE);
+  await forecastPage.goToCityForecast(CITY);
   await expect(page).toHaveURL(forecastPage.getForecastUrl(CITY, STATE));
 
   const forecast = await forecastPage.getDayForecast(DAY_FROM_NOW);
